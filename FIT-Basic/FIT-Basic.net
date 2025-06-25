@@ -1,0 +1,321 @@
+(export 
+  (version "E") 
+  (design 
+    (source "C:\\Users\\Electronica\\Documents\\GitHub\\Badges\\Badge Balam\\Badge Balam.kicad_sch") 
+    (date "2024-05-14T10:05:44-0600") 
+    (tool "Eeschema 8.0.1") 
+    (sheet 
+      (number "1") 
+      (name "/") 
+      (tstamps "/") 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source "Badge Balam.kicad_sch") 
+        (comment 
+          (number "1") 
+          (value "")) 
+        (comment 
+          (number "2") 
+          (value "")) 
+        (comment 
+          (number "3") 
+          (value "")) 
+        (comment 
+          (number "4") 
+          (value "")) 
+        (comment 
+          (number "5") 
+          (value "")) 
+        (comment 
+          (number "6") 
+          (value "")) 
+        (comment 
+          (number "7") 
+          (value "")) 
+        (comment 
+          (number "8") 
+          (value "")) 
+        (comment 
+          (number "9") 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref "D1") 
+      (value "LED") 
+      (footprint "LED_THT:LED_D5.0mm_Clear") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_D5.0mm_Clear") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description"))) 
+      (libsource 
+        (lib "Device") 
+        (part "LED") 
+        (description "Light emitting diode")) 
+      (property 
+        (name "Sheetname") 
+        (value "Raíz")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Badge Balam.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "LED diode")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED* LED_SMD:* LED_THT:*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "aec8ed58-acaf-4f6f-96cf-ec2dc0ac8f72")) 
+    (comp 
+      (ref "D2") 
+      (value "LED") 
+      (footprint "LED_THT:LED_D5.0mm_Clear") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_D5.0mm_Clear") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description"))) 
+      (libsource 
+        (lib "Device") 
+        (part "LED") 
+        (description "Light emitting diode")) 
+      (property 
+        (name "Sheetname") 
+        (value "Raíz")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Badge Balam.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "LED diode")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED* LED_SMD:* LED_THT:*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "fa502d16-19f6-4fe5-b341-710d19c39772")) 
+    (comp 
+      (ref "J1") 
+      (value "Conn_01x02_Pin") 
+      (footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type073_RT02602HBLU_1x02_P5.08mm_Horizontal") 
+      (description "Generic connector, single row, 01x02, script generated") 
+      (fields 
+        (field 
+          (name "Footprint") "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type073_RT02602HBLU_1x02_P5.08mm_Horizontal") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Generic connector, single row, 01x02, script generated")) 
+      (libsource 
+        (lib "Connector") 
+        (part "Conn_01x02_Pin") 
+        (description "Generic connector, single row, 01x02, script generated")) 
+      (property 
+        (name "Sheetname") 
+        (value "Raíz")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Badge Balam.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "connector")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Connector*:*_1x??_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "138a46d0-fd80-41f8-9c11-2fb7c3d83e6b")) 
+    (comp 
+      (ref "SW1") 
+      (value "SW_SPDT") 
+      (footprint "Button_Switch_THT:SW_E-Switch_EG1271_SPDT") 
+      (description "Switch, single pole double throw") 
+      (fields 
+        (field 
+          (name "Footprint") "Button_Switch_THT:SW_E-Switch_EG1271_SPDT") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Switch, single pole double throw")) 
+      (libsource 
+        (lib "Switch") 
+        (part "SW_SPDT") 
+        (description "Switch, single pole double throw")) 
+      (property 
+        (name "Sheetname") 
+        (value "Raíz")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Badge Balam.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "switch single-pole double-throw spdt ON-ON")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "8f546251-01b2-41ad-a984-904497c3b450"))) 
+  (libparts 
+    (libpart 
+      (lib "Connector") 
+      (part "Conn_01x02_Pin") 
+      (description "Generic connector, single row, 01x02, script generated") 
+      (docs "~") 
+      (footprints 
+        (fp "Connector*:*_1x??_*")) 
+      (fields 
+        (field 
+          (name "Reference") "J") 
+        (field 
+          (name "Value") "Conn_01x02_Pin") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Generic connector, single row, 01x02, script generated")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "Pin_1") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "Pin_2") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "LED") 
+      (description "Light emitting diode") 
+      (docs "~") 
+      (footprints 
+        (fp "LED*") 
+        (fp "LED_SMD:*") 
+        (fp "LED_THT:*")) 
+      (fields 
+        (field 
+          (name "Reference") "D") 
+        (field 
+          (name "Value") "LED") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Light emitting diode")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "K") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "A") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Switch") 
+      (part "SW_SPDT") 
+      (description "Switch, single pole double throw") 
+      (docs "~") 
+      (fields 
+        (field 
+          (name "Reference") "SW") 
+        (field 
+          (name "Value") "SW_SPDT") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Switch, single pole double throw")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "A") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "B") 
+          (type "passive")) 
+        (pin 
+          (num "3") 
+          (name "C") 
+          (type "passive"))))) 
+  (libraries 
+    (library 
+      (logical "Connector") 
+      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Connector.kicad_sym")) 
+    (library 
+      (logical "Device") 
+      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Device.kicad_sym")) 
+    (library 
+      (logical "Switch") 
+      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Switch.kicad_sym"))) 
+  (nets 
+    (net 
+      (code "1") 
+      (name "+3V0") 
+      (node 
+        (ref "J1") 
+        (pin "1") 
+        (pinfunction "Pin_1") 
+        (pintype "passive")) 
+      (node 
+        (ref "SW1") 
+        (pin "2") 
+        (pinfunction "B") 
+        (pintype "passive"))) 
+    (net 
+      (code "2") 
+      (name "/diode_flag") 
+      (node 
+        (ref "D1") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "D2") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "SW1") 
+        (pin "3") 
+        (pinfunction "C") 
+        (pintype "passive"))) 
+    (net 
+      (code "3") 
+      (name "GNDREF") 
+      (node 
+        (ref "D1") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "D2") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "J1") 
+        (pin "2") 
+        (pinfunction "Pin_2") 
+        (pintype "passive"))) 
+    (net 
+      (code "4") 
+      (name "unconnected-(SW1-A-Pad1)") 
+      (node 
+        (ref "SW1") 
+        (pin "1") 
+        (pinfunction "A") 
+        (pintype "passive")))))
